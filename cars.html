@@ -1,17 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 	<title>Challenge exercise DAY 05</title>
+
+
+	<style>
+		/*#main{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: blue;
+}
+
+.tesla {
+	width: 30%;
+}
+
+img{
+	width: 100%;
+}*/
+	</style>
 </head>
 <body>
-	<script type="text/javascript"  src="data.json"></script>
+	<div id="main"> 
+<!-- 		<div id="car1"><img src="img/model_s.jpg" alt="model_s.jpg" height="300px" width="500px">
+		</div>
+		<div id="car2"><img src="img/model_s.jpg" alt="model_s.jpg" height="300px" width="500px">
+		</div>
+		<div id="car3"><img src="img/model_s.jpg" alt="model_s.jpg" height="300px" width="500px">
+		</div> -->
+	</div>
 
-	<script type="text/javascript">
+	<script type="text/javascript" src="data.json"></script>
+
+	<script>
 	var car = JSON.parse(cars);
-
-
-
+	console.log(car);
+	for (var i = 0; i < car.length; i++) {
+		console.log(car[i].name);
+		var div = `<div class="tesla"><img src="${car[i].picture}" alt="${car[i].name}">
+		</div>`;
+		document.getElementById('main').innerHTML += div;
+	}
+	
 	</script>
+	
+	
+
+	
 
 
 

@@ -1,163 +1,163 @@
 
-   Employees = `[{
+  //  Employees = `[{
 
-       "userId": "1",
+  //      "userId": "1",
 
-       "firstName": "Patrik",
+  //      "firstName": "Patrik",
 
-       "lastName": "Jonathan",
+  //      "lastName": "Jonathan",
 
-       "emailAddress": "patrik.k.jonathan@gmail.com",
+  //      "emailAddress": "patrik.k.jonathan@gmail.com",
 
-		"jobTitleName": "Developer",
+		// "jobTitleName": "Developer",
 
-       "salary": "2000 €"
+  //      "salary": "2000 €"
 
-   }, {
+  //  }, {
 
-       "userId": "2",
+  //      "userId": "2",
 
-       "firstName": "Tom",
+  //      "firstName": "Tom",
 
-       "lastName": "Irani",
+  //      "lastName": "Irani",
 
-       "emailAddress": "tomrirani@gmail.com",
+  //      "emailAddress": "tomrirani@gmail.com",
 
-       "jobTitleName": "Analyst",
+  //      "jobTitleName": "Analyst",
 
-       "salary": "1500 €"
+  //      "salary": "1500 €"
 
 
-   }, {
+  //  }, {
 
-       "userId": "3",
+  //      "userId": "3",
 
-       "firstName": "Bob",
+  //      "firstName": "Bob",
 
-       "lastName": "Hanks",
+  //      "lastName": "Hanks",
 
-       "emailAddress": "bobhanks@gmail.com",
+  //      "emailAddress": "bobhanks@gmail.com",
 
-       "jobTitleName": "Program director",
+  //      "jobTitleName": "Program director",
 
-       "salary": "10500 €"
+  //      "salary": "10500 €"
 
 
 
-   },{
+  //  },{
 
-       "userId": "4",
+  //      "userId": "4",
 
-       "firstName": "Maria",
+  //      "firstName": "Maria",
 
-       "lastName": "Bulias",
+  //      "lastName": "Bulias",
 
-       "emailAddress": "maria.b@gmail.com",
+  //      "emailAddress": "maria.b@gmail.com",
 
-       "jobTitleName": "superstar",
+  //      "jobTitleName": "superstar",
 
-       "salary": "3000 €"
+  //      "salary": "3000 €"
 
 
 
-   },{
+  //  },{
 
-       "userId": "5",
+  //      "userId": "5",
 
-       "firstName": "Silas",
+  //      "firstName": "Silas",
 
-       "lastName": "Johsonn",
+  //      "lastName": "Johsonn",
 
-       "emailAddress": "silas.j@gmail.com",
+  //      "emailAddress": "silas.j@gmail.com",
 
-       "jobTitleName": "junior analyst",
+  //      "jobTitleName": "junior analyst",
 
-       "salary": "500 €"
+  //      "salary": "500 €"
 
 
 
-   },{
+  //  },{
 
-       "userId": "6",
+  //      "userId": "6",
 
-       "firstName": "Lisa",
+  //      "firstName": "Lisa",
 
-       "lastName": "Maier",
+  //      "lastName": "Maier",
 
-       "emailAddress": "lisa.m@gmail.com",
+  //      "emailAddress": "lisa.m@gmail.com",
 
-       "jobTitleName": "secretary",
+  //      "jobTitleName": "secretary",
 
-       "salary": "1300 €"
+  //      "salary": "1300 €"
 
 
 
-   },
-   {
+  //  },
+  //  {
 
-       "userId": "7",
+  //      "userId": "7",
 
-       "firstName": "Alina",
+  //      "firstName": "Alina",
 
-       "lastName": "Baumgartner",
+  //      "lastName": "Baumgartner",
 
-       "emailAddress": "alina.b@gmail.com",
+  //      "emailAddress": "alina.b@gmail.com",
 
-       "jobTitleName": "cleaner",
+  //      "jobTitleName": "cleaner",
 
-       "salary": "1500 €"
+  //      "salary": "1500 €"
 
 
 
-   },{
+  //  },{
 
-       "userId": "8",
+  //      "userId": "8",
 
-       "firstName": "Marc",
+  //      "firstName": "Marc",
 
-       "lastName": "Zucker",
+  //      "lastName": "Zucker",
 
-       "emailAddress": "mark.z@gmail.com",
+  //      "emailAddress": "mark.z@gmail.com",
 
-       "jobTitleName": "senior programmer",
+  //      "jobTitleName": "senior programmer",
 
-       "salary": "3400 €"
+  //      "salary": "3400 €"
 
 
 
-   },{
+  //  },{
 
-       "userId": "9",
+  //      "userId": "9",
 
-       "firstName": "Steve",
+  //      "firstName": "Steve",
 
-       "lastName": "Job",
+  //      "lastName": "Job",
 
-       "emailAddress": "steve.j@gmail.com",
+  //      "emailAddress": "steve.j@gmail.com",
 
-       "jobTitleName": "CEO",
+  //      "jobTitleName": "CEO",
 
-       "salary": "100000 €"
+  //      "salary": "100000 €"
 
 
 
-   },{
+  //  },{
 
-       "userId": "10",
+  //      "userId": "10",
 
-       "firstName": "Jeff",
+  //      "firstName": "Jeff",
 
-       "lastName": "Jeff",
+  //      "lastName": "Jeff",
 
-       "emailAddress": "jeff.j@gmail.com",
+  //      "emailAddress": "jeff.j@gmail.com",
 
-	   "jobTitleName": "developer",
+	 //   "jobTitleName": "developer",
 
-       "salary": "9500 €"
+  //      "salary": "9500 €"
 
 
 
-   }]`;
+  //  }]`;
 
 
    cars = `[{
@@ -168,8 +168,8 @@
 
        "picture": "img/model_s.jpg",
 
-       "price": "80.000",
-   }
+       "price": "80.000"
+   },
    {
 
        "name": "Tesla Cybertruck",
@@ -178,8 +178,8 @@
 
        "picture": "img/truck.jpg",
 
-       "price": "45.000",
-   }
+       "price": "45.000"
+   },
    {
 
        "name": "Tesla Truck",
@@ -188,5 +188,5 @@
 
        "picture": "img/bigtruck.jpg",
 
-       "price": "120.000",
-   }]`
+       "price": "120.000"
+   }]`;

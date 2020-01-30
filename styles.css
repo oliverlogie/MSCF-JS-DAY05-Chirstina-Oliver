@@ -1,0 +1,15 @@
+#main{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: blue;
+}
+
+.tesla {
+	width: 30%;
+}
+
+img{
+	width: 100%;
+}
