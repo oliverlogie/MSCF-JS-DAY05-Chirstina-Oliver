@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> JS DAY 05</title>
+</head>
+<body>
+
+	<script type="text/javascript"  src="data.json"></script>
+	
+	<script type="text/javascript">
+	var sandwiches = { 
+	 "sandwich": "hamburger",
+	 "calories": "260" };
+	var fries = { "fries_size": "Large French Fries",
+	  "calories": "570" };
+
+	 document.write("My favorite sandwich is " + sandwiches.sandwich + " which has approximately " + sandwiches.calories + "calories ,along with it I enjoy " +  fries.fries_size + " which have about " + fries.calories + " calories");
+	</script>
+
+
+	<script type="text/javascript">
+	var workers = JSON.parse(Employees);
+	var i = 0;
+    document.writeln("<table border='2'><tr>");
+    for (i = 0; i < workers.length; i++) {
+        document.writeln("<td>");
+        document.writeln("<table border='1' width=100 >");
+        document.writeln("<tr><td><b>userId</b></td><td width=50>" + workers[i].userId + "</td></tr>");
+        document.writeln("<tr><td><b>firstName</b></td><td width=50>" + workers[i].firstName + "</td></tr>");
+        document.writeln("</table>");
+        document.writeln("</td>");
+;
+        document.writeln("<tr><td><b>lastName</b></td><td width=50>" + workers[i].lastName + "</td></tr>");
+        document.writeln("</table>");
+        document.writeln("</td>");
+        document.writeln("<tr><td><b>emailAddress</b></td><td width=50>" + workers[i].emailAddress + "</td></tr>");
+        document.writeln("</table>");
+        document.writeln("</td>");
+        document.writeln("<tr><td><b>jobTitleName</b></td><td width=50>" + workers[i].jobTitleName + "</td></tr>");
+        document.writeln("</table>");
+        document.writeln("</td>");
+        document.writeln("<tr><td><b>salary</b></td><td width=50>" + workers[i].salary + "</td></tr>");
+        document.writeln("</table>");
+        document.writeln("</td>");
+
+    }
+    document.writeln("</tr></table>");
+    </script>
+	</script>
+</html>

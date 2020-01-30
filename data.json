@@ -1,0 +1,192 @@
+
+   Employees = `[{
+
+       "userId": "1",
+
+       "firstName": "Patrik",
+
+       "lastName": "Jonathan",
+
+       "emailAddress": "patrik.k.jonathan@gmail.com",
+
+		"jobTitleName": "Developer",
+
+       "salary": "2000 €"
+
+   }, {
+
+       "userId": "2",
+
+       "firstName": "Tom",
+
+       "lastName": "Irani",
+
+       "emailAddress": "tomrirani@gmail.com",
+
+       "jobTitleName": "Analyst",
+
+       "salary": "1500 €"
+
+
+   }, {
+
+       "userId": "3",
+
+       "firstName": "Bob",
+
+       "lastName": "Hanks",
+
+       "emailAddress": "bobhanks@gmail.com",
+
+       "jobTitleName": "Program director",
+
+       "salary": "10500 €"
+
+
+
+   },{
+
+       "userId": "4",
+
+       "firstName": "Maria",
+
+       "lastName": "Bulias",
+
+       "emailAddress": "maria.b@gmail.com",
+
+       "jobTitleName": "superstar",
+
+       "salary": "3000 €"
+
+
+
+   },{
+
+       "userId": "5",
+
+       "firstName": "Silas",
+
+       "lastName": "Johsonn",
+
+       "emailAddress": "silas.j@gmail.com",
+
+       "jobTitleName": "junior analyst",
+
+       "salary": "500 €"
+
+
+
+   },{
+
+       "userId": "6",
+
+       "firstName": "Lisa",
+
+       "lastName": "Maier",
+
+       "emailAddress": "lisa.m@gmail.com",
+
+       "jobTitleName": "secretary",
+
+       "salary": "1300 €"
+
+
+
+   },
+   {
+
+       "userId": "7",
+
+       "firstName": "Alina",
+
+       "lastName": "Baumgartner",
+
+       "emailAddress": "alina.b@gmail.com",
+
+       "jobTitleName": "cleaner",
+
+       "salary": "1500 €"
+
+
+
+   },{
+
+       "userId": "8",
+
+       "firstName": "Marc",
+
+       "lastName": "Zucker",
+
+       "emailAddress": "mark.z@gmail.com",
+
+       "jobTitleName": "senior programmer",
+
+       "salary": "3400 €"
+
+
+
+   },{
+
+       "userId": "9",
+
+       "firstName": "Steve",
+
+       "lastName": "Job",
+
+       "emailAddress": "steve.j@gmail.com",
+
+       "jobTitleName": "CEO",
+
+       "salary": "100000 €"
+
+
+
+   },{
+
+       "userId": "10",
+
+       "firstName": "Jeff",
+
+       "lastName": "Jeff",
+
+       "emailAddress": "jeff.j@gmail.com",
+
+	   "jobTitleName": "developer",
+
+       "salary": "9500 €"
+
+
+
+   }]`;
+
+
+   cars = `[{
+
+       "name": "Tesla S",
+
+       "year": "2010",
+
+       "picture": "img/model_s.jpg",
+
+       "price": "80.000",
+   }
+   {
+
+       "name": "Tesla Cybertruck",
+
+       "year": "2019",
+
+       "picture": "img/truck.jpg",
+
+       "price": "45.000",
+   }
+   {
+
+       "name": "Tesla Truck",
+
+       "year": "2002",
+
+       "picture": "img/bigtruck.jpg",
+
+       "price": "120.000",
+   }]`
